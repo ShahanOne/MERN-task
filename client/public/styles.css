@@ -1,0 +1,43 @@
+/* .main-div{
+} */
+.pop-form{
+    width: 50%;
+    margin-top: 1%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #F7F7F7;
+    display: none;
+}
+.pop-form:target{
+    display: unset;
+    position: absolute;
+    right: 25%;
+}
+
+.pop-heading{
+    display: inline-block;
+    margin-right: 70%;
+}
+.exit-btn{
+    display: inline-block;
+}
+.new-input{
+    width: 70%;
+}
+.reset-btn{
+    margin: 2%;
+}
+.submit-btn{
+    margin: 2%;
+}
+
+thead{
+    background-color: cornflowerblue;
+    color: #F7F7F7;
+}
+
+.btn-send{
+    visibility: visible;
+    width: 10%;
+
+}
+
