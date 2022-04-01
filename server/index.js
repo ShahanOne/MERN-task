@@ -20,7 +20,7 @@ const corsOptions ={
 app.use(cors(corsOptions)) // Use this after the variable declaration
 
 
-mongoose.connect("mongodb+srv://Shahan786:Shahan-786@cluster0.ma0c6.mongodb.net/formsDB");
+mongoose.connect("mongodb+srv://Shahan786:"+process.env.MONGO_PASSWORD+"@cluster0.ma0c6.mongodb.net/formsDB");
 
 const formSchema = new mongoose.Schema({
   id:{
