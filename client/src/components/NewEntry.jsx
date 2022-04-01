@@ -56,15 +56,15 @@ function NewEntry() {
    <hr/>
    <center>
        <form onSubmit={handleSubmit} method="POST">
-       <input className="form-control new-input" onChange={handleIdChange}      placeholder="Enter Unique Id" name="id"/>
+       <input className="form-control new-input" onChange={handleIdChange}      placeholder="Enter Unique Id*" name="id"/>
        <br/>
-       <input className="form-control new-input" onChange={handleNameChange}    placeholder="Enter Name" name="name"/>
+       <input className="form-control new-input" onChange={handleNameChange}    placeholder="Enter Name*" name="name"/>
        <br/>
-       <input className="form-control new-input" onChange={handlePhoneChange}   placeholder="Enter Phone Number" name="phone" />
+       <input className="form-control new-input" onChange={handlePhoneChange}   placeholder="Enter Phone Number*" name="phone" />
        <br/>
-       <input className="form-control new-input" onChange={handleEmailChange}   placeholder="Enter E-mail Address" name="email" />
+       <input className="form-control new-input" onChange={handleEmailChange}   placeholder="Enter E-mail Address*" name="email" />
        <br/>
-       <input className="form-control new-input" onChange={handleHobbiesChange} placeholder="Enter Hobbies" name="hobbies" />
+       <input className="form-control new-input" onChange={handleHobbiesChange} placeholder="Enter Hobbies*" name="hobbies" />
        <br/>
        <button className="btn btn-primary reset-btn" type="reset">Reset</button>
        <button className="btn btn-primary submit-btn" type="submit">Add</button><a className=" btn btn-primary submit-btn" href="/">Go Back</a>
