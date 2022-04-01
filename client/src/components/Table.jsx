@@ -39,7 +39,7 @@ function Table() {
   </tbody>
       </table>  
       
-      <form style={{"visibility":"hidden"}} action="mailto:shahanhussain9105@gmail.com" method="post" encType="text/plain">
+      <form style={{"visibility":"hidden"}} action="mailto:info@redpositive.in" method="post" encType="text/plain">
       <center><button  type="submit" className="btn btn-primary btn-send">Send</button></center>
       {data && data.map(formData=> <input type="text" name="id" value={formData.id}/> )}
       {data && data.map(formData=> <input type="text" name="name" value={formData.name}/>)}
